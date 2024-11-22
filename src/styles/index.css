@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* html {
+    scroll-behavior: smooth;
+    scrollbar-color: #8e8e8e #fff;
+    scrollbar-width: thin;
+    scrollbar-track-color: transparent;
+  } */
+
+  /* .container {
+    @apply max-w-[1280px];
+    @apply mx-auto;
+    @apply px-4 md:py-1 sm:py-2 lg:py-3 py-4;
+    @apply relative;
+  } */
+
+  body {
+    /* background: url("../assets/test.jpg") no-repeat;
+    background-size:cover; */
+    background-color: white;
+  }
+
+  .test {
+    /* box-shadow: 10px 0px 10px 0px #ff0000; */
+    filter: drop-shadow(16px, 16px);
+  }
+
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+
+  #root {
+    @apply w-full min-h-screen;
+  }
+}
